@@ -1,9 +1,9 @@
 importScripts("/precache-manifest.7fdb8c2212a7e7e0c59ab8ff302f87fd.js");
 
 
-        importScripts('/static/workbox-v3.6.3/workbox-sw.js');
+        importScripts('/siteLab/static/workbox-v3.6.3/workbox-sw.js');
         workbox.setConfig({
-            modulePathPrefix: '/static/workbox-v3.6.3/'
+            modulePathPrefix: '/siteLab/static/workbox-v3.6.3/'
         });
     /**
  * @file service-worker.js with workbox api
@@ -50,4 +50,4 @@ workbox.routing.registerRoute(/^https:\/\/cdn\.baidu\.com/i,
         ]
     })
 );
-workbox.routing.registerNavigationRoute('/index.html');
+workbox.routing.registerNavigationRoute('/siteLab/index.html');

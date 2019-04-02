@@ -1,5 +1,5 @@
 {
-    "start_url": "/?utm_source=homescreen",
+    "start_url": "/siteLab/index.html?utm_source=homescreen",
     "name": "lavas_pwa",
     "short_name": "lavas_pwa",
     "icons": [
